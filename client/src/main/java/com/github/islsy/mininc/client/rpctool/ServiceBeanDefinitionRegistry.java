@@ -43,7 +43,7 @@
 //     */
 //    @Override
 //    public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry registry) throws BeansException {
-//        Set<Class<?>> clazzSet = scannerPackages("com.github.yeecode.easyrpc.client.remoteservice");
+//        Set<Class<?>> clazzSet = scannerPackages("com.github.islsy.mininc.pub.remoteservice");
 //        clazzSet.stream().filter(Class::isInterface).forEach(x -> registerBean(registry, x));
 //    }
 //
